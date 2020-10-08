@@ -41,72 +41,6 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-@media only screen and (max-width:768px){
-    .first-section{
-        height: 100vh;
-        width:100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        "box1 box2"
-         "box3 box4";
-         align-items: center;
-    }
-
-    .box1{
-        grid-area: box1;
-        margin: 0 auto;
-    }
-    .box2{
-        grid-area: box2;
-        margin: 0 auto;
-    }
-    .box3{
-        grid-area: box3;
-        margin: 0 auto;
-    }
-    .box4{
-        grid-area: box4;
-        margin: 0 auto;
-    }
-    
-
-}
-
-
-@media only screen and (max-width:438px){
-    .first-section{
-        height: 100vh;
-        width:100%;
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-areas: 
-        "box1"
-         "box2"
-         "box3" 
-         "box4";
-         align-items: center;
-    }
-
-    .box1{
-        grid-area: box1;
-        margin: 0 auto;
-    }
-    .box2{
-        grid-area: box2;
-        margin: 0 auto;
-    }
-    .box3{
-        grid-area: box3;
-        margin: 0 auto;
-    }
-    .box4{
-        grid-area: box4;
-        margin: 0 auto;
-    }
-    
-
-}
 
 /* ---- SECOND SECTION ----*/
 
@@ -244,4 +178,192 @@ hr{
 .box-author{
 	display: flex;
 	align-items: center;
+}
+
+
+@media only screen and (max-width:438px){
+    .first-section{
+        height: 100vh;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 650px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-areas: 
+        "box1"
+         "box2"
+         "box3" 
+         "box4";
+         align-items: center;
+    }
+    
+    .second-section{
+    border: 10px solid #f2f2f2e3;
+    border-radius: 5px;
+    color: #fff;
+    padding:5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #468df1;
+    height:600px;
+    width: 350px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+    .author{
+	display: flex;
+	margin-top: 10px;
+}
+    
+    .main-txt-sec3{
+	font-size:14px;
+}
+    imgjosaih{
+	background-image: url("./images/Josiah.jpg");
+	background-size: 158%;
+    background-position: 43px 50px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.main-txt-sec3{
+	font-size: 12px;
+}
+
+.sec3p1{
+	font-size: 16px;
+	
+}
+
+    .box1{
+        grid-area: box1;
+        margin: 0 auto;
+    }
+    .box2{
+        grid-area: box2;
+        margin: 0 auto;
+    }
+    .box3{
+        grid-area: box3;
+        margin: 0 auto;
+    }
+    .box4{
+        grid-area: box4;
+        margin: 0 auto;
+    }
+    
+
+}
+
+@media only screen and (max-width:580px){
+    .first-section{
+        height: 100vh;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 650px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-areas: 
+        "box1"
+         "box2"
+         "box3" 
+         "box4";
+         align-items: center;
+    }
+    
+    .second-section{
+    border: 10px solid #f2f2f2e3;
+    border-radius: 5px;
+    color: #fff;
+    padding:5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #468df1;
+    height:600px;
+    width: 350px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+    .author{
+	display: flex;
+	margin-top: 10px;
+}
+    
+    .main-txt-sec3{
+	font-size:14px;
+}
+    imgjosaih{
+	background-image: url("./images/Josiah.jpg");
+	background-size: 90%;
+    background-position: 43px 70px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.main-txt-sec3{
+	font-size: 14px;
+}
+
+.sec3p1{
+	font-size:16px;
+	
+}
+
+    .box1{
+        grid-area: box1;
+        margin: 0 auto;
+    }
+    .box2{
+        grid-area: box2;
+        margin: 0 auto;
+    }
+    .box3{
+        grid-area: box3;
+        margin: 0 auto;
+    }
+    .box4{
+        grid-area: box4;
+        margin: 0 auto;
+    }
+    
+
+}
+
+
+@media only screen and (max-width:768px){
+    .first-section{
+        height: 100vh;
+        width:100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "box1 box2"
+         "box3 box4";
+         align-items: center;
+    }
+
+    .box1{
+        grid-area: box1;
+        margin: 0 auto;
+    }
+    .box2{
+        grid-area: box2;
+        margin: 0 auto;
+    }
+    .box3{
+        grid-area: box3;
+        margin: 0 auto;
+    }
+    .box4{
+        grid-area: box4;
+        margin: 0 auto;
+    }
+    
+
+
+
 }
