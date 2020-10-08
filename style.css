@@ -120,7 +120,7 @@
     padding:5px 20px;
     margin: 0 auto;
     background-color: #468df1;
-    height:580px;
+    height:600px;
     width: 350px;
     font-family: 'Montserrat', sans-serif;
     
@@ -169,4 +169,79 @@ hr{
 
 
 
+/* ---- THIRD SECTION ----*/
 
+.third-cover{
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.third-section{
+    font-size: 2rem;
+	display: flex;
+	border: solid #839192 1px;
+	width: 600px;
+	height: 300px;
+    margin: 10px 0;
+    padding:0px;
+    box-shadow: 0px 0px 5px  #aab4b5e7; 
+    font-family: 'Montserrat', sans-serif;
+}
+.author{
+	display: flex;
+	margin-top: 80px;
+}
+.sec3{
+	width: 60%;
+	padding: 20px
+}
+.imgsec3{
+	background-image: url("./images/sec3.jpg");
+	background-size: cover;
+	width: 40%;
+	height:96%;
+}
+
+.imgjosaih{
+	background-image: url("./images/Josiah.jpg");
+	background-size: 120%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.box_text{
+	margin: auto;
+	margin-top: -20px;
+}
+.main-txt-sec3{
+	font-size: 20px;
+}
+
+.sec3p1{
+	font-size: 18px;
+	
+}
+.sec3p2{
+	font-size: 16px;
+	margin-top: -5px;
+}
+
+.text-author{
+	padding-left: 12px;
+}
+.sec3h2{
+	font-size: 14px;
+    display: block;
+    
+}
+.sec3p{
+	font-size: 14px;
+	margin-top: -5px;
+}
+
+.box-author{
+	display: flex;
+	align-items: center;
+}
